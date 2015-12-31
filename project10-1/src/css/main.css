@@ -1,0 +1,494 @@
+html {
+    color: #000;
+    overflow-y: scroll;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    min-width: 1000px;
+    cursor: default;
+    font: 12px arial;
+    text-align: center;
+}
+
+body,
+form {
+    position: relative;
+    z-index: 0;
+}
+
+#wrapper {
+    height: 100%;
+}
+
+#head {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 768px;
+    cursor: default;
+}
+
+.top_wrap {
+    position: absolute;
+    z-index: 99;
+    min-width: 1000px;
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.u_sp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 500;
+    width: 590px;
+    font-size: 13px;
+    text-align: right;
+    color: #999;
+}
+
+.mnav {
+    font-weight: bold;
+}
+
+.u_sp a {
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    margin-left: 19px;
+    color: #555;
+    text-decoration: underline;
+    outline: none;
+    display: inline-block;
+    text-shadow: none;
+}
+
+.u_sp .s_bri {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background: #398bfb;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #398bfb;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.bdbri {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    width: 85px;
+    border-left: 1px solid #e7e7e7;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    text-shadow: none;
+}
+
+.bdmore {
+    color: #333;
+    text-align: center;
+    width: 66px;
+    height: 30px;
+    line-height: 34px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    font-size: 13px;
+    cursor: default;
+}
+
+.bdbri a {
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    font-size: 12px;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+    text-shadow: none;
+    line-height: 14px;
+}
+
+.bdbri a img {
+    display: block;
+    height: 36px;
+    width: auto;
+    margin: 10px auto 5px;
+    cursor: pointer;
+    border: 0;
+}
+
+.bdmore a {
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    font-size: 12px;
+    border-bottom: none;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+    text-shadow: none;
+    line-height: 14px;
+}
+
+.head_wrap {
+    position: relative;
+    z-index: 2;
+    height: 38%;
+    min-height: 370px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.s_fm {
+    width: 641px;
+    height: 100%;
+    min-height: 293px;
+    text-align: left;
+    z-index: 100;
+    margin: 0 auto;
+}
+
+.s_lg {
+    height: 61.8%;
+    min-height: 181px;
+    position: relative;
+    text-align: center;
+}
+
+#s_lg_img {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -135px;
+}
+
+#kw {
+    width: 521px;
+    height: 20px;
+    padding: 9px 7px;
+    border: 1px solid #b8b8b8;
+    border-right: 0;
+    vertical-align: top;
+    outline: none;
+    box-shadow: none;
+}
+
+.fm {
+    top: 45px;
+}
+
+.btn {
+    margin-left: -3px;
+    cursor: pointer;
+    width: 102px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    border: 0;
+    background: none;
+    background-color: #38f;
+    font-size: 16px;
+    color: white;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.content_wrap {
+    margin-top: 70px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    min-width: 1000px;
+}
+
+.s_main {
+    display: block;
+    margin: 0 auto;
+    width: 895px;
+}
+
+.menu_container {
+    width: 100%;
+    min-height: 35px;
+    position: relative;
+    z-index: 0;
+    width: 893px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 14px;
+    border-top: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    height: 38px;
+    line-height: 38px;
+}
+
+.menu_container .tabin {
+    background-color: #9a9da2 !important;
+    color: #fff;
+    font-weight: bold;
+}
+
+.menu_container .tabin span {
+    background-position: -144px 0;
+}
+
+.menu_mine {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    text-align: left;
+    width: 124px;
+    cursor: pointer;
+}
+
+.mine-icon {
+    display: inline-block;
+    margin: 11px 0 0 20px;
+    width: 20px;
+    height: 18px;
+    vertical-align: top;
+    background: url(../img/icon.jpg) no-repeat -15px 0;
+}
+
+.mine-text {
+    margin-left: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-item {
+    color: #333;
+    width: 80px;
+    height: 38px;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    margin-left: -5px;
+}
+
+.m:hover {
+    background-color: #b3b6bb;
+    color: #fff;
+}
+
+.m:hover .mine-icon {
+    background-position: -144px 0;
+}
+
+.menu-setting {
+    height: 39px;
+    float: right;
+    width: 18px;
+    padding: 0 21px 0 11px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu-setting .menu-icon {
+    width: 100%;
+    height: 18px;
+    margin-top: 11px;
+    overflow: hidden;
+    background: url(../img/icon.jpg) no-repeat -121px -49px;
+}
+
+.s_contents {
+    width: 893px;
+    min-height: 363px;
+    border: 1px solid #e9e9e9;
+}
+
+.s_contents .content {
+    width: 893px;
+    min-height: 363px;
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.s_contents .contentin {
+    width: 893px;
+    min-height: 363px;
+    display: block;
+    /*font-size: 40px;*/
+}
+
+.top_feed {
+    position: fixed;
+    left: 50%;
+    margin-left: 465px;
+    bottom: 30px;
+    width: 41px;
+}
+
+.to-top {
+    position: relative;
+    height: 32px;
+    width: 39px;
+    padding-top: 7px;
+    border: 1px solid #ebebeb;
+    background-color: #eee;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.feed-back {
+    height: 32px;
+    padding-top: 7px;
+    position: relative;
+    width: 39px;
+    border: 1px solid #ebebeb;
+    background-color: #eee;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.icon-mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 41px;
+    line-height: 41px;
+    width: 41px;
+    z-index: 3;
+    font-size: 13px;
+    background-color: #9a9da2;
+    color: #fff;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.feed-back span {
+    height: 24px;
+    display: block;
+    width: 33px;
+    margin: 0 auto;
+    background: url(../img/top_feedback.jpg) no-repeat 2px -47px;
+}
+
+.to-top span {
+    height: 24px;
+    display: block;
+    width: 33px;
+    margin: 0 auto;
+    background: url(../img/top_feedback.jpg) no-repeat -1px -6px;
+}
+
+.news-rank{
+    position: absolute;
+    top: 0px;
+    right: -21px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.news-rank-title{
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left:-15px;
+    margin-bottom: 10px;
+}
+
+.news-rank-content{
+    position: relative;
+    list-style: disc;
+}
+
+.news-rank-content li{
+    color: #666;
+    float: left;
+    width: 145px;
+    margin-right: 3px;
+    list-style:square;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: middle;
+}
+
+.news-rank-content li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.news-wrapper{
+    float: left;
+    text-align: left;
+    width: 538px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.news-item {
+    min-height: 146px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+    color: #999;
+    font-size: 14px;
+}
+
+.text-content{
+    width: 335px;
+    height: 96px;
+    margin-right: 25px;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.pic-content{
+    float: right;
+    margin-top: 20px;
+}
+
